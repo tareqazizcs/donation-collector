@@ -1,0 +1,144 @@
+body {
+    margin-top: 0;
+    font-family: 'Finlandica', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.color-orange {
+    color: orange;
+}
+
+.home-section {
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/donation7.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donate-button {
+    color: whitesmoke;
+    padding: 20px 40px;
+    background-color: coral;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.amount-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.amounts-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.amount-box {
+    margin-left: 20px;
+    height: 100px;
+    width: 140px;
+    padding: 10px 10px 10px 10px;
+    background-color: lightgray;
+    border-radius: 6px;
+}
+
+#popular-amount {
+    border: 3px solid salmon;
+    background-color: rgb(253, 211, 206);
+}
+
+.input-container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-div {
+    border-bottom: 5px solid lightgray;
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input-div input {
+    text-decoration: none;
+    height: 40px;
+    border: none;
+    font-weight: 800;
+}
+
+.button-div {
+    margin-top: 20px;
+}
+
+.donation-plan-section {
+    margin-top: 40px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.donation-plan-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-boxes {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 30px 30px 10px 10px;
+}
+
+.three-boxes img {
+    height: 80px;
+    width: 80px;
+}
+
+.three-boxes p {
+    color: gray;
+    font-size: small;
+}
+
+#box-1 {
+    background-color: #4F9DA61A;
+}
+
+#box-2 {
+    background-color: #FFF4D6;
+}
+
+#box-3 {
+    background-color: #f5c0c0;
+}
